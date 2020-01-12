@@ -1,0 +1,157 @@
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-background {
+    background-color: #ff4c68;
+}
+
+.big-heading {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+
+/* Title Section */
+
+#title {
+    text-align: left;
+}
+
+#title .big-heading {
+    font-weight: 900;
+    padding: 2rem 0rem;
+}
+
+.title-text {
+    padding: 2rem 1rem;
+    color: #fff;
+}
+
+.download-btn {
+    margin: 0.5rem;
+}
+
+/* Title Image */
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+/* Navigation Bar */
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'Ubuntu';
+}
+
+/* Features Area */
+#features{
+    padding: 7% 15%;
+    z-index: 1024;
+    background-color: #fff;
+    position: relative;
+}
+
+.features-area i{
+    padding-bottom: 1rem;
+    color: #ef8172;
+}
+
+.features-area i:hover{
+    color: #ff4c68;
+}
+
+.features-area h3{
+    font-weight: 700;
+}
+
+/* Testimonials Section */
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Carousel */
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 7%;
+}
+
+#pricing p {
+    color: lightslategray;
+    margin-bottom: 4%;
+}
+
+#pricing button {
+    padding: 4% 0;
+}
+
+/* CTA Section */
+#cta {
+    padding: 7% 10%;
+}
+
+#cta h3 {
+    line-height: 1.5;
+    color: #fff;
+    font-size: 3.75rem;
+    margin-bottom: 5%;
+}
+
+/* Footer */
+#footer {
+    color: black;
+    padding: 7%;
+}
+
+#footer i {
+    padding: 1rem;
+}
+
+#footer p {
+    color: #8f8f8f;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        transform: rotate(0);
+        position: static;
+    }
+}
