@@ -132,12 +132,15 @@ h2 {
 
 /* Footer */
 #footer {
-    color: black;
     padding: 7%;
 }
 
 #footer i {
     padding: 1rem;
+}
+
+#footer a {
+    color: black;
 }
 
 #footer p {
